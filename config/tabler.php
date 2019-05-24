@@ -17,7 +17,7 @@ return [
         'post-email' => 'password/email',
         'post-reset' => 'password/reset'
     ],
-    'footer' => 'Copyright © 2018 Tabler. Theme by codecalm.net All rights reserved.',
+    'footer' => 'Copyright © 2018 LaraSkeleton. Tabler Theme by codecalm.net All rights reserved.',
     'support' => [
         'search' => false,
         'footer-menu' => false,

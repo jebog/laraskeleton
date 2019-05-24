@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Str;
 
+//For Heroku Redis Add-On
 $redisHost = env('REDIS_HOST', '127.0.0.1');
 $redisPort = env('REDIS_PORT', 6379);
 $redisPassword = env('REDIS_PASSWORD', null);
@@ -135,7 +136,7 @@ return [
 
         'options' => [
             'cluster' => env('REDIS_CLUSTER', 'predis'),
-            'prefix' => Str::slug(env('APP_NAME', 'laravel'), '_').'_database_',
+            'prefix' => Str::slug(env('APP_NAME', 'laravel'), '_') . '_database_',
         ],
 
         'default' => [

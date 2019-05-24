@@ -1,5 +1,5 @@
-@extends('tabler::layouts.main')
-@section('title', 'Tabler')
+@extends('layouts.main')
+@section('title', 'Lravel')
 @section('content')
 
 @stop
