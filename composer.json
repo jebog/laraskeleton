@@ -14,7 +14,8 @@
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
         "pingecom/l5-tabler": "~1.0.0",
-        "predis/predis": "^1.1"
+        "predis/predis": "^1.1",
+        "spatie/laravel-permission": "^2.37"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^2.6",
@@ -44,6 +45,9 @@
         "classmap": [
             "database/seeds",
             "database/factories"
+        ],
+        "files": [
+            "app/Helpers/Functions.php"
         ]
     },
     "autoload-dev": {

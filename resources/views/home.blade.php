@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'Lravel')
+@section('title', 'LaraSkeleton')
 @section('content')
 
 @stop
